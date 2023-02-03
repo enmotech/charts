@@ -1,0 +1,58 @@
+apiVersion: v1
+entries:
+  mogdb-apiserver:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-02-03T18:50:37.626671+08:00"
+    description: A Helm chart for Kubernetes
+    digest: aa94703e7464bc0fc82840695c6110a21ddd3ec6387907a4dafc208c86b6388d
+    name: mogdb-apiserver
+    type: application
+    urls:
+    - https://enmotech.github.io/charts/mogdb-apiserver-2.0.0.tgz
+    version: 2.0.0
+  mogdb-cluster:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-02-03T18:50:37.626983+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 5fb416b0f977d9b6a55dd8a6de519d4c034ccbfd373900da03615bdf94048797
+    name: mogdb-cluster
+    type: application
+    urls:
+    - https://enmotech.github.io/charts/mogdb-cluster-2.0.0.tgz
+    version: 2.0.0
+  mogdb-monitor:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-02-03T18:50:37.627815+08:00"
+    description: A Helm chart for Kubernetes
+    digest: e1eab8ed1633b2a3ab470581b4b51ce7f04947521c09a20c3e9ebab944d7e759
+    name: mogdb-monitor
+    type: application
+    urls:
+    - https://enmotech.github.io/charts/mogdb-monitor-2.0.0.tgz
+    version: 2.0.0
+  mogdb-operator:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-02-03T18:50:37.628265+08:00"
+    description: A Helm chart for Kubernetes
+    digest: e1681ef1ea4f0afcc4711ab53313d73417e28ed4ffbc72c6aab46c04fa8ba376
+    name: mogdb-operator
+    type: application
+    urls:
+    - https://enmotech.github.io/charts/mogdb-operator-2.0.0.tgz
+    version: 2.0.0
+  mogha:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-02-03T18:50:37.628512+08:00"
+    description: A Helm chart for Kubernetes
+    digest: fefc75f91a827fc9e95dab52a787741c5dbf961e2eb1c06fdb141e5c2e1c842c
+    name: mogha
+    type: application
+    urls:
+    - https://enmotech.github.io/charts/mogha-2.0.0.tgz
+    version: 2.0.0
+generated: "2023-02-03T18:50:37.625471+08:00"
