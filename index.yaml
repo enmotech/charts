@@ -3,7 +3,7 @@ entries:
   mogdb-apiserver:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-06-20T10:45:55.373685+08:00"
+    created: "2023-06-20T11:05:46.311813+08:00"
     description: A Helm chart for Kubernetes
     digest: aa94703e7464bc0fc82840695c6110a21ddd3ec6387907a4dafc208c86b6388d
     name: mogdb-apiserver
@@ -14,7 +14,7 @@ entries:
   mogdb-cluster:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-06-20T10:45:55.373875+08:00"
+    created: "2023-06-20T11:05:46.312125+08:00"
     description: A Helm chart for Kubernetes
     digest: 74f569992bd937b86a8198794359702f4b51b5c221100bb2fda7d8e0a57da4c2
     name: mogdb-cluster
@@ -25,7 +25,7 @@ entries:
   mogdb-monitor:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-06-20T10:45:55.375518+08:00"
+    created: "2023-06-20T11:05:46.315029+08:00"
     description: A Helm chart for Kubernetes
     digest: e1eab8ed1633b2a3ab470581b4b51ce7f04947521c09a20c3e9ebab944d7e759
     name: mogdb-monitor
@@ -36,9 +36,9 @@ entries:
   mogdb-operator:
   - apiVersion: v2
     appVersion: 2.0.2
-    created: "2023-06-20T10:45:55.376059+08:00"
+    created: "2023-06-20T11:05:46.315748+08:00"
     description: A Helm chart for Kubernetes
-    digest: e60753f442204c297e1002983378b3dacc6593ae1f30609fa0796e49c2d6d9ff
+    digest: 6a2be9c3ae222c1447ebf657416eee157671dd47730d615c6953cf2321e214f1
     name: mogdb-operator
     type: application
     urls:
@@ -46,7 +46,7 @@ entries:
     version: 2.0.2
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-06-20T10:45:55.375713+08:00"
+    created: "2023-06-20T11:05:46.315383+08:00"
     description: A Helm chart for Kubernetes
     digest: e1681ef1ea4f0afcc4711ab53313d73417e28ed4ffbc72c6aab46c04fa8ba376
     name: mogdb-operator
@@ -57,7 +57,7 @@ entries:
   mogha:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-06-20T10:45:55.376225+08:00"
+    created: "2023-06-20T11:05:46.316034+08:00"
     description: A Helm chart for Kubernetes
     digest: fefc75f91a827fc9e95dab52a787741c5dbf961e2eb1c06fdb141e5c2e1c842c
     name: mogha
@@ -65,4 +65,4 @@ entries:
     urls:
     - https://enmotech.github.io/mogdb-stack-helm-charts/mogha-2.0.0.tgz
     version: 2.0.0
-generated: "2023-06-20T10:45:55.373288+08:00"
+generated: "2023-06-20T11:05:46.310867+08:00"
