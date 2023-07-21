@@ -2,57 +2,247 @@ apiVersion: v1
 entries:
   mogdb-apiserver:
   - apiVersion: v2
-    appVersion: 2.0.0
-    created: "2023-02-03T18:50:37.626671+08:00"
+    appVersion: 2.0.1
+    created: "2023-07-21T15:48:00.905003302+08:00"
     description: A Helm chart for Kubernetes
-    digest: aa94703e7464bc0fc82840695c6110a21ddd3ec6387907a4dafc208c86b6388d
+    digest: 49231209ff699bd9025a367c4474006770f4a6567f7974df63244fbdbe6f7458
     name: mogdb-apiserver
     type: application
     urls:
-    - https://enmotech.github.io/charts/mogdb-apiserver-2.0.0.tgz
+    - apiserver/mogdb-apiserver-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-07-21T15:48:00.904369722+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 8a5892ea435ca828f1e8afee9be48f0731acb66513b4a7d35d55725a947f56ca
+    name: mogdb-apiserver
+    type: application
+    urls:
+    - apiserver/mogdb-apiserver-2.0.0.tgz
     version: 2.0.0
   mogdb-cluster:
   - apiVersion: v2
-    appVersion: 2.0.0
-    created: "2023-02-03T18:50:37.626983+08:00"
+    appVersion: 3.0.3
+    created: "2023-07-21T15:48:00.906196781+08:00"
     description: A Helm chart for Kubernetes
-    digest: 5fb416b0f977d9b6a55dd8a6de519d4c034ccbfd373900da03615bdf94048797
+    digest: e6df5ee2ef6f9c6a6786fb17f5ab7f3ad985f5cb9aa872bbd9fe81c99aba95df
     name: mogdb-cluster
     type: application
     urls:
-    - https://enmotech.github.io/charts/mogdb-cluster-2.0.0.tgz
-    version: 2.0.0
+    - mogdb-cluster/mogdb-cluster-3.0.3.tgz
+    version: 3.0.3
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2023-07-21T15:48:00.905530218+08:00"
+    description: Helm chart for deploying MogDB Cluster on Kubernetes
+    digest: bfa55e4f438a6e39b877c87e968ff79def06fac7b61da375854cddecc082ede8
+    home: https://www.mogdb.io/
+    keywords:
+    - mogdb
+    - operator
+    - database
+    maintainers:
+    - email: yabin.ji@enmotech.com
+      name: yabin.ji
+    - email: dong.wang@enmotech.com
+      name: dong.wang
+    - email: suhouzhen2020@gmail.com
+      name: houzhen.su
+      url: https://su-houzhen.github.io/
+    name: mogdb-cluster
+    sources:
+    - https://www.mogdb.io
+    - https://github.com/enmotech/charts
+    - https://github.com/enmotech/mogdb-stack-examples
+    type: application
+    urls:
+    - mogdb-cluster/mogdb-cluster-3.0.0.tgz
+    version: 3.0.0
   mogdb-monitor:
   - apiVersion: v2
-    appVersion: 2.0.0
-    created: "2023-02-03T18:50:37.627815+08:00"
+    appVersion: 3.0.0
+    created: "2023-07-21T15:48:00.91217744+08:00"
     description: A Helm chart for Kubernetes
-    digest: e1eab8ed1633b2a3ab470581b4b51ce7f04947521c09a20c3e9ebab944d7e759
+    digest: af40974c1bdce0e3d08080cc4868f4c0b108ea0421c3898476d91f6e3c6d7093
     name: mogdb-monitor
     type: application
     urls:
-    - https://enmotech.github.io/charts/mogdb-monitor-2.0.0.tgz
+    - mogdb-monitor/mogdb-monitor-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: 2.0.1
+    created: "2023-07-21T15:48:00.910193873+08:00"
+    description: A Helm chart for Kubernetes
+    digest: db46bce411d900d6a070a3d6c0c01faa00135ec1d72cbacc174f878acabcc3a6
+    name: mogdb-monitor
+    type: application
+    urls:
+    - mogdb-monitor/mogdb-monitor-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-07-21T15:48:00.908740177+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 25477fe0ddeb5cdd7d978d8a4f4a41227ec2c85cb640e7819b3ab7594b1613e5
+    name: mogdb-monitor
+    type: application
+    urls:
+    - mogdb-monitor/mogdb-monitor-2.0.0.tgz
     version: 2.0.0
   mogdb-operator:
   - apiVersion: v2
-    appVersion: 2.0.0
-    created: "2023-02-03T18:50:37.628265+08:00"
+    appVersion: 3.0.0
+    created: "2023-07-21T15:48:00.916448074+08:00"
+    description: Helm chart for deploying MogDB Operator on Kubernetes
+    digest: cfef0c621e626b0b4382a7e2cee7429661e2b67b0325aa191115ddf0e3a7c9fe
+    home: https://www.mogdb.io/
+    keywords:
+    - mogdb
+    - operator
+    - database
+    maintainers:
+    - email: yabin.ji@enmotech.com
+      name: yabin.ji
+    - email: dong.wang@enmotech.com
+      name: dong.wang
+    - email: suhouzhen2020@gmail.com
+      name: houzhen.su
+      url: https://su-houzhen.github.io/
+    name: mogdb-operator
+    sources:
+    - https://www.mogdb.io
+    - https://github.com/enmotech/charts
+    - https://github.com/enmotech/mogdb-stack-examples
+    type: application
+    urls:
+    - mogdb-operator/mogdb-operator-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: 2.0.1
+    created: "2023-07-21T15:48:00.91316189+08:00"
     description: A Helm chart for Kubernetes
-    digest: e1681ef1ea4f0afcc4711ab53313d73417e28ed4ffbc72c6aab46c04fa8ba376
+    digest: 03e99151c235ed6c5dcdf27eb74f086aaf5b38c517f1652df6cf2d74268fe438
     name: mogdb-operator
     type: application
     urls:
-    - https://enmotech.github.io/charts/mogdb-operator-2.0.0.tgz
+    - mogdb-operator/mogdb-operator-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-07-21T15:48:00.912684779+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 2ce0ffe8af39c82915982c5bb93227331501c98163266c92a5f08d0e9b63ab33
+    name: mogdb-operator
+    type: application
+    urls:
+    - mogdb-operator/mogdb-operator-2.0.0.tgz
     version: 2.0.0
   mogha:
   - apiVersion: v2
-    appVersion: 2.0.0
-    created: "2023-02-03T18:50:37.628512+08:00"
+    appVersion: 3.0.0
+    created: "2023-07-21T15:48:00.907894362+08:00"
+    description: Helm chart for deploying MogDB Ha on Kubernetes
+    digest: 90f635dbb90ee01148def112af61408d3e8b1ce7c83d0644a85798eb5f38512a
+    home: https://www.mogdb.io/
+    keywords:
+    - mogdb
+    - operator
+    - database
+    - high availability
+    maintainers:
+    - email: yabin.ji@enmotech.com
+      name: yabin.ji
+    - email: dong.wang@enmotech.com
+      name: dong.wang
+    - email: suhouzhen2020@gmail.com
+      name: houzhen.su
+      url: https://su-houzhen.github.io/
+    name: mogha
+    sources:
+    - https://www.mogdb.io
+    - https://github.com/enmotech/charts
+    - https://github.com/enmotech/mogdb-stack-examples
+    type: application
+    urls:
+    - mogdb-ha/mogha-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: 2.0.1
+    created: "2023-07-21T15:48:00.907487495+08:00"
     description: A Helm chart for Kubernetes
-    digest: fefc75f91a827fc9e95dab52a787741c5dbf961e2eb1c06fdb141e5c2e1c842c
+    digest: becc21b400f32df046ac5b42d698ec46c63aaa8e40cce2a8db1c512f2271dc9a
     name: mogha
     type: application
     urls:
-    - https://enmotech.github.io/charts/mogha-2.0.0.tgz
+    - mogdb-ha/mogha-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-07-21T15:48:00.906847012+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 496d735c1edd318e9d53a594eb7dc3622ad150c9ba1f9571e26b2f67e8788507
+    name: mogha
+    type: application
+    urls:
+    - mogdb-ha/mogha-2.0.0.tgz
     version: 2.0.0
-generated: "2023-02-03T18:50:37.625471+08:00"
+  multi-cluster:
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2023-07-21T15:48:00.917956996+08:00"
+    description: Helm chart for deploying MogDB Multi Cluster on Kubernetes
+    digest: aab2be7db2991d17db9b9611445a5af6ea3b27142626d5c1fd8a30ee4f34d61b
+    home: https://www.mogdb.io/
+    keywords:
+    - mogdb
+    - operator
+    - database
+    - multi-cluster
+    maintainers:
+    - email: yabin.ji@enmotech.com
+      name: yabin.ji
+    - email: dong.wang@enmotech.com
+      name: dong.wang
+    - email: suhouzhen2020@gmail.com
+      name: houzhen.su
+      url: https://su-houzhen.github.io/
+    name: multi-cluster
+    sources:
+    - https://www.mogdb.io
+    - https://github.com/enmotech/charts
+    - https://github.com/enmotech/mogdb-stack-examples
+    type: application
+    urls:
+    - multi-cluster/multi-cluster-3.0.0.tgz
+    version: 3.0.0
+  multi-operator:
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2023-07-21T15:48:00.920097102+08:00"
+    description: Helm chart for deploying MogDB Multi Operator on Kubernetes
+    digest: e83c02a71e9ce5da8658680b76dae05461f95570f51dbeac9b31e4eaa4c37475
+    home: https://www.mogdb.io/
+    keywords:
+    - mogdb
+    - operator
+    - database
+    - multi-cluster
+    maintainers:
+    - email: yabin.ji@enmotech.com
+      name: yabin.ji
+    - email: dong.wang@enmotech.com
+      name: dong.wang
+    - email: suhouzhen2020@gmail.com
+      name: houzhen.su
+      url: https://su-houzhen.github.io/
+    name: multi-operator
+    sources:
+    - https://www.mogdb.io
+    - https://github.com/enmotech/charts
+    - https://github.com/enmotech/mogdb-stack-examples
+    type: application
+    urls:
+    - multi-operator/multi-operator-3.0.0.tgz
+    version: 3.0.0
+generated: "2023-07-21T15:48:00.902157659+08:00"
